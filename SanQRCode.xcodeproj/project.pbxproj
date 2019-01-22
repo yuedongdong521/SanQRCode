@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED13F12E21F6AAF3006F2454 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED13F12D21F6AAF3006F2454 /* AppDelegate.m */; };
+		ED13F13121F6AAF3006F2454 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED13F13021F6AAF3006F2454 /* ViewController.m */; };
+		ED13F13421F6AAF3006F2454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED13F13221F6AAF3006F2454 /* Main.storyboard */; };
+		ED13F13621F6AAF4006F2454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED13F13521F6AAF4006F2454 /* Assets.xcassets */; };
+		ED13F13921F6AAF4006F2454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED13F13721F6AAF4006F2454 /* LaunchScreen.storyboard */; };
+		ED13F13C21F6AAF4006F2454 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED13F13B21F6AAF4006F2454 /* main.m */; };
+		ED13F14621F6AAF5006F2454 /* SanQRCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED13F14521F6AAF5006F2454 /* SanQRCodeTests.m */; };
+		ED13F15121F6AAF5006F2454 /* SanQRCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED13F15021F6AAF5006F2454 /* SanQRCodeUITests.m */; };
+		ED13F16021F6AB78006F2454 /* CaptureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ED13F15F21F6AB78006F2454 /* CaptureManager.m */; };
+		ED13F16321F6ABC3006F2454 /* SanQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED13F16221F6ABC3006F2454 /* SanQRCodeViewController.m */; };
+		ED13F16621F72CA2006F2454 /* qbScanLight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED13F16421F72CA1006F2454 /* qbScanLight@2x.png */; };
+		ED13F16721F72CA2006F2454 /* qbScanbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED13F16521F72CA1006F2454 /* qbScanbg@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED13F14221F6AAF5006F2454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED13F12121F6AAF3006F2454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED13F12821F6AAF3006F2454;
+			remoteInfo = SanQRCode;
+		};
+		ED13F14D21F6AAF5006F2454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED13F12121F6AAF3006F2454 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED13F12821F6AAF3006F2454;
+			remoteInfo = SanQRCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED13F12921F6AAF3006F2454 /* SanQRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SanQRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED13F12C21F6AAF3006F2454 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED13F12D21F6AAF3006F2454 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED13F12F21F6AAF3006F2454 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED13F13021F6AAF3006F2454 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED13F13321F6AAF3006F2454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED13F13521F6AAF4006F2454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED13F13821F6AAF4006F2454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED13F13A21F6AAF4006F2454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED13F13B21F6AAF4006F2454 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED13F14121F6AAF5006F2454 /* SanQRCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SanQRCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED13F14521F6AAF5006F2454 /* SanQRCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SanQRCodeTests.m; sourceTree = "<group>"; };
+		ED13F14721F6AAF5006F2454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED13F14C21F6AAF5006F2454 /* SanQRCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SanQRCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED13F15021F6AAF5006F2454 /* SanQRCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SanQRCodeUITests.m; sourceTree = "<group>"; };
+		ED13F15221F6AAF5006F2454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED13F15E21F6AB78006F2454 /* CaptureManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaptureManager.h; sourceTree = "<group>"; };
+		ED13F15F21F6AB78006F2454 /* CaptureManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptureManager.m; sourceTree = "<group>"; };
+		ED13F16121F6ABC3006F2454 /* SanQRCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SanQRCodeViewController.h; sourceTree = "<group>"; };
+		ED13F16221F6ABC3006F2454 /* SanQRCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SanQRCodeViewController.m; sourceTree = "<group>"; };
+		ED13F16421F72CA1006F2454 /* qbScanLight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qbScanLight@2x.png"; sourceTree = "<group>"; };
+		ED13F16521F72CA1006F2454 /* qbScanbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qbScanbg@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED13F12621F6AAF3006F2454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED13F13E21F6AAF5006F2454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED13F14921F6AAF5006F2454 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED13F12021F6AAF3006F2454 = {
+			isa = PBXGroup;
+			children = (
+				ED13F12B21F6AAF3006F2454 /* SanQRCode */,
+				ED13F14421F6AAF5006F2454 /* SanQRCodeTests */,
+				ED13F14F21F6AAF5006F2454 /* SanQRCodeUITests */,
+				ED13F12A21F6AAF3006F2454 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED13F12A21F6AAF3006F2454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED13F12921F6AAF3006F2454 /* SanQRCode.app */,
+				ED13F14121F6AAF5006F2454 /* SanQRCodeTests.xctest */,
+				ED13F14C21F6AAF5006F2454 /* SanQRCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED13F12B21F6AAF3006F2454 /* SanQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				ED13F16521F72CA1006F2454 /* qbScanbg@2x.png */,
+				ED13F16421F72CA1006F2454 /* qbScanLight@2x.png */,
+				ED13F12C21F6AAF3006F2454 /* AppDelegate.h */,
+				ED13F12D21F6AAF3006F2454 /* AppDelegate.m */,
+				ED13F12F21F6AAF3006F2454 /* ViewController.h */,
+				ED13F13021F6AAF3006F2454 /* ViewController.m */,
+				ED13F15E21F6AB78006F2454 /* CaptureManager.h */,
+				ED13F15F21F6AB78006F2454 /* CaptureManager.m */,
+				ED13F16121F6ABC3006F2454 /* SanQRCodeViewController.h */,
+				ED13F16221F6ABC3006F2454 /* SanQRCodeViewController.m */,
+				ED13F13221F6AAF3006F2454 /* Main.storyboard */,
+				ED13F13521F6AAF4006F2454 /* Assets.xcassets */,
+				ED13F13721F6AAF4006F2454 /* LaunchScreen.storyboard */,
+				ED13F13A21F6AAF4006F2454 /* Info.plist */,
+				ED13F13B21F6AAF4006F2454 /* main.m */,
+			);
+			path = SanQRCode;
+			sourceTree = "<group>";
+		};
+		ED13F14421F6AAF5006F2454 /* SanQRCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED13F14521F6AAF5006F2454 /* SanQRCodeTests.m */,
+				ED13F14721F6AAF5006F2454 /* Info.plist */,
+			);
+			path = SanQRCodeTests;
+			sourceTree = "<group>";
+		};
+		ED13F14F21F6AAF5006F2454 /* SanQRCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED13F15021F6AAF5006F2454 /* SanQRCodeUITests.m */,
+				ED13F15221F6AAF5006F2454 /* Info.plist */,
+			);
+			path = SanQRCodeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED13F12821F6AAF3006F2454 /* SanQRCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED13F15521F6AAF5006F2454 /* Build configuration list for PBXNativeTarget "SanQRCode" */;
+			buildPhases = (
+				ED13F12521F6AAF3006F2454 /* Sources */,
+				ED13F12621F6AAF3006F2454 /* Frameworks */,
+				ED13F12721F6AAF3006F2454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SanQRCode;
+			productName = SanQRCode;
+			productReference = ED13F12921F6AAF3006F2454 /* SanQRCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED13F14021F6AAF5006F2454 /* SanQRCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED13F15821F6AAF5006F2454 /* Build configuration list for PBXNativeTarget "SanQRCodeTests" */;
+			buildPhases = (
+				ED13F13D21F6AAF5006F2454 /* Sources */,
+				ED13F13E21F6AAF5006F2454 /* Frameworks */,
+				ED13F13F21F6AAF5006F2454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED13F14321F6AAF5006F2454 /* PBXTargetDependency */,
+			);
+			name = SanQRCodeTests;
+			productName = SanQRCodeTests;
+			productReference = ED13F14121F6AAF5006F2454 /* SanQRCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED13F14B21F6AAF5006F2454 /* SanQRCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED13F15B21F6AAF5006F2454 /* Build configuration list for PBXNativeTarget "SanQRCodeUITests" */;
+			buildPhases = (
+				ED13F14821F6AAF5006F2454 /* Sources */,
+				ED13F14921F6AAF5006F2454 /* Frameworks */,
+				ED13F14A21F6AAF5006F2454 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED13F14E21F6AAF5006F2454 /* PBXTargetDependency */,
+			);
+			name = SanQRCodeUITests;
+			productName = SanQRCodeUITests;
+			productReference = ED13F14C21F6AAF5006F2454 /* SanQRCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED13F12121F6AAF3006F2454 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = ydd;
+				TargetAttributes = {
+					ED13F12821F6AAF3006F2454 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+					};
+					ED13F14021F6AAF5006F2454 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED13F12821F6AAF3006F2454;
+					};
+					ED13F14B21F6AAF5006F2454 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED13F12821F6AAF3006F2454;
+					};
+				};
+			};
+			buildConfigurationList = ED13F12421F6AAF3006F2454 /* Build configuration list for PBXProject "SanQRCode" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED13F12021F6AAF3006F2454;
+			productRefGroup = ED13F12A21F6AAF3006F2454 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED13F12821F6AAF3006F2454 /* SanQRCode */,
+				ED13F14021F6AAF5006F2454 /* SanQRCodeTests */,
+				ED13F14B21F6AAF5006F2454 /* SanQRCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED13F12721F6AAF3006F2454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED13F13921F6AAF4006F2454 /* LaunchScreen.storyboard in Resources */,
+				ED13F16721F72CA2006F2454 /* qbScanbg@2x.png in Resources */,
+				ED13F13621F6AAF4006F2454 /* Assets.xcassets in Resources */,
+				ED13F13421F6AAF3006F2454 /* Main.storyboard in Resources */,
+				ED13F16621F72CA2006F2454 /* qbScanLight@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED13F13F21F6AAF5006F2454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED13F14A21F6AAF5006F2454 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED13F12521F6AAF3006F2454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED13F16321F6ABC3006F2454 /* SanQRCodeViewController.m in Sources */,
+				ED13F13121F6AAF3006F2454 /* ViewController.m in Sources */,
+				ED13F13C21F6AAF4006F2454 /* main.m in Sources */,
+				ED13F16021F6AB78006F2454 /* CaptureManager.m in Sources */,
+				ED13F12E21F6AAF3006F2454 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED13F13D21F6AAF5006F2454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED13F14621F6AAF5006F2454 /* SanQRCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED13F14821F6AAF5006F2454 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED13F15121F6AAF5006F2454 /* SanQRCodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED13F14321F6AAF5006F2454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED13F12821F6AAF3006F2454 /* SanQRCode */;
+			targetProxy = ED13F14221F6AAF5006F2454 /* PBXContainerItemProxy */;
+		};
+		ED13F14E21F6AAF5006F2454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED13F12821F6AAF3006F2454 /* SanQRCode */;
+			targetProxy = ED13F14D21F6AAF5006F2454 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED13F13221F6AAF3006F2454 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED13F13321F6AAF3006F2454 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED13F13721F6AAF4006F2454 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED13F13821F6AAF4006F2454 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED13F15321F6AAF5006F2454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED13F15421F6AAF5006F2454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED13F15621F6AAF5006F2454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8F7D4C878S;
+				INFOPLIST_FILE = SanQRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ydd.ydd.SanQRCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED13F15721F6AAF5006F2454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8F7D4C878S;
+				INFOPLIST_FILE = SanQRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ydd.ydd.SanQRCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED13F15921F6AAF5006F2454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8F7D4C878S;
+				INFOPLIST_FILE = SanQRCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ydd.ydd.SanQRCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SanQRCode.app/SanQRCode";
+			};
+			name = Debug;
+		};
+		ED13F15A21F6AAF5006F2454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8F7D4C878S;
+				INFOPLIST_FILE = SanQRCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ydd.ydd.SanQRCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SanQRCode.app/SanQRCode";
+			};
+			name = Release;
+		};
+		ED13F15C21F6AAF5006F2454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8F7D4C878S;
+				INFOPLIST_FILE = SanQRCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ydd.ydd.SanQRCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SanQRCode;
+			};
+			name = Debug;
+		};
+		ED13F15D21F6AAF5006F2454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8F7D4C878S;
+				INFOPLIST_FILE = SanQRCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ydd.ydd.SanQRCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SanQRCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED13F12421F6AAF3006F2454 /* Build configuration list for PBXProject "SanQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED13F15321F6AAF5006F2454 /* Debug */,
+				ED13F15421F6AAF5006F2454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED13F15521F6AAF5006F2454 /* Build configuration list for PBXNativeTarget "SanQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED13F15621F6AAF5006F2454 /* Debug */,
+				ED13F15721F6AAF5006F2454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED13F15821F6AAF5006F2454 /* Build configuration list for PBXNativeTarget "SanQRCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED13F15921F6AAF5006F2454 /* Debug */,
+				ED13F15A21F6AAF5006F2454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED13F15B21F6AAF5006F2454 /* Build configuration list for PBXNativeTarget "SanQRCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED13F15C21F6AAF5006F2454 /* Debug */,
+				ED13F15D21F6AAF5006F2454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED13F12121F6AAF3006F2454 /* Project object */;
+}
